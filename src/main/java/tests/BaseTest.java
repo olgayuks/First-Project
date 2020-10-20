@@ -16,5 +16,5 @@ public class BaseTest {
     }
     @AfterClass
     public void afterTClass() {
-        driver.close();}
+        driver.quit();}
 }
